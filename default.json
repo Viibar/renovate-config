@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":timezone(Asia/Tokyo)",
+    "schedule:weekends",
+    "github>viibar/renovate-config:stabilityBump",
+    "github>viibar/renovate-config:groupMinorPatch",
+    "github>hatena/renovate-config:groupJest"
+  ]
+}
