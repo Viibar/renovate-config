@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "webpack",
+      "matchSourceUrlPrefixes": ["https://github.com/webpack/"],
+      "matchPackagePatterns": ["\\w+-loader$", "\\w+-webpack-plugin$"]
+    }
+  ]
+}
