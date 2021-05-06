@@ -5,7 +5,9 @@
     ":timezone(Asia/Tokyo)",
     "schedule:weekends",
     "github>viibar/renovate-config:stabilityBump",
-    "github>hatena/renovate-config:groupJest"
+    "github>viibar/renovate-config:groupWebpack",
+    "github>hatena/renovate-config:groupJest",
+    "github>hatena/renovate-config:groupLinters"
   ],
   "labels": ["renovate", "dependencies"]
 }
