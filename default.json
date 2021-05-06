@@ -9,5 +9,6 @@
     "github>hatena/renovate-config:groupJest",
     "github>hatena/renovate-config:groupLinters"
   ],
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "labels": ["renovate", "dependencies"]
 }
