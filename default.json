@@ -5,6 +5,7 @@
     ":timezone(Asia/Tokyo)",
     "schedule:weekends",
     "github>viibar/renovate-config:stabilityBump",
+    "github>viibar/renovate-config:automergeTypes",
     "github>viibar/renovate-config:groupWebpack",
     "github>viibar/renovate-config:groupNpmAzure",
     "github>hatena/renovate-config:groupJest",
