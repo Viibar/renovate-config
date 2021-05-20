@@ -3,7 +3,10 @@
   "packageRules": [
     {
       "groupName": "webpack",
-      "matchSourceUrlPrefixes": ["https://github.com/webpack/"],
+      "matchSourceUrlPrefixes": [
+        "https://github.com/webpack/",
+        "https://github.com/webpack-contrib/"
+      ],
       "matchPackagePatterns": ["\\w+-loader$", "\\w+-webpack-plugin$"]
     }
   ]
