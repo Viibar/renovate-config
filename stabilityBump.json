@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "stabilityDays": 10,
+  "stabilityDays": 5,
   "rangeStrategy": "bump",
   "prCreation": "not-pending"
 }
