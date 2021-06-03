@@ -8,8 +8,8 @@
     "github>viibar/renovate-config:automergeTypes",
     "github>viibar/renovate-config:groupWebpack",
     "github>viibar/renovate-config:groupNpmAzure",
-    "github>hatena/renovate-config:groupJest",
-    "github>hatena/renovate-config:groupLinters"
+    "github>viibar/renovate-config:groupLinters",
+    "github>hatena/renovate-config:groupJest"
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
   "labels": ["renovate", "dependencies"]
