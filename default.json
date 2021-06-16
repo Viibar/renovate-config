@@ -4,11 +4,11 @@
     "config:base",
     ":timezone(Asia/Tokyo)",
     "github>viibar/renovate-config:scheduleHalfYearly",
-    "github>viibar/renovate-config:automergeTypes",
     "github>viibar/renovate-config:groupWebpack",
     "github>viibar/renovate-config:groupNpmAzure",
     "github>viibar/renovate-config:groupLinters",
-    "github>hatena/renovate-config:groupJest"
+    "github>hatena/renovate-config:groupJest",
+    "github>viibar/renovate-config:automergeTypes"
   ],
   "rangeStrategy": "bump",
   "prCreation": "not-pending",
