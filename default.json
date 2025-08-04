@@ -3,7 +3,7 @@
   "extends": [
     "config:base",
     ":timezone(Asia/Tokyo)",
-    "github>viibar/renovate-config:scheduleHalfYearly",
+    "schedule:quarterly",
     "github>viibar/renovate-config:groupWebpack",
     "github>viibar/renovate-config:groupNpmAzure",
     "github>viibar/renovate-config:groupLinters",
