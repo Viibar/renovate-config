@@ -11,6 +11,7 @@
     "github>viibar/renovate-config:automergeTypes"
   ],
   "rangeStrategy": "bump",
+  "minimumReleaseAge": "10 days",
   "prCreation": "not-pending",
   "postUpdateOptions": ["yarnDedupeHighest"],
   "labels": ["renovate", "dependencies"]
